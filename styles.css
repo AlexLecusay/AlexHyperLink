@@ -1,0 +1,87 @@
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    width: 384px;
+}
+
+h1{
+    font-family: 'Menlo', monospace;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    color: #672777
+}
+
+a:link{
+    color: #000;
+    outline: 0;
+    text-decoration: none;
+}
+
+img{
+    width: 50px;
+}
+
+.modal-header{
+    align-items: center;
+    border-bottom: 0.5px solid #dadada;
+}
+
+.modal-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0 22px;
+}
+
+.modal-icons{
+    border-top: 0.5px solid #dadada;
+    height: 50px;
+    width: 100%;
+}
+
+.logo{
+    color: white;
+    padding: 16px;
+}
+
+.logo-icon{
+    vertical-align: text-bottom;
+    margin-right: 12px;
+}
+
+.version{
+    color: white;
+    font-size: 18px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 22px;
+}
+
+.flex{
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    width: 120px;
+}
+
+.flex:hover{
+    opacity: 0.4;
+}
+
+.flex .fa{
+    font-size: 40px;
+    color: #672777;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }

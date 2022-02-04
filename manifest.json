@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Alex's HyperLink",
+    "description": "Link to all of Alex's information",
+    "version": "1.0.0",
+    "icons": {"128": "Me128.png"},
+    "action": {
+        "default_icon": "Me19png",             
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
